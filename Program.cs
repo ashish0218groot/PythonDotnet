@@ -26,19 +26,9 @@ class Program
             dynamic GetDirectory = pythonModule.test(result);
             Console.WriteLine(result);
             Console.WriteLine(GetDirectory);
-
-
-            //dynamic getDirectory = Py.Import(moduleName);
-
-            //string libDirectory = @"D:\Ashish\POC\PythonDotNetCore\PythonDotnet\lib";
-            //string getDirectory = "get_directory";
-            //sys.path.append(libDirectory);
-
-            //dynamic secondOutput = Py.Import(getDirectory);
-            //Console.WriteLine(result);
+             
 
         }
 
-        //PythonEngine.Shutdown();
-    }
+     }
 }
